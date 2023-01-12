@@ -10,13 +10,19 @@
   display: flex;
   padding-left: 650px;
   position: relative;
+  
+}
+
+.link:hover{
+  transform: scale(1.2);
 }
 
 .link{
   padding-left: 30px;
   color: #fff;
   text-decoration:none;
-
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.2s ease-in-out;
 }
 
 .titulo{
@@ -41,7 +47,7 @@
 .card{
   float: right ;
   bottom: 350px;
-  right: 350px;
+  right: 170px;
   position:relative;
   padding: 15px;
   padding-bottom: 35px;
@@ -69,4 +75,28 @@ text-align: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.button_carousel{
+  position:relative;
+  top:80px;
+  background-color: #ddd;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_carousel:hover {
+  background-color: #ccc;
+}
+
+.button_carousel:active {
+  transform: scale(0.9);
 }

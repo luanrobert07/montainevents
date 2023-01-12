@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './imagens/logo.png'
-import img1 from './imagens/img1.png'
+import Carousel from './componentes/Carousel';
 
 function App() {
   return (
@@ -27,9 +27,13 @@ function App() {
         <button className='button'>Cout me</button>
 
         <div className='card'>
-          <img className='img1' src={img1} alt='img1'></img>
+          <div>
+            <Carousel />
+          </div>
           <p className='card_text' >Summer Hiking</p>
         </div>
+
+        
 
       </header>
     </div>
