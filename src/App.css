@@ -1,0 +1,72 @@
+
+.logo{
+  padding-left: 90px;
+  display: inline;
+  position: relative;
+  top: 40px;
+}
+
+.cabecalho{
+  display: flex;
+  padding-left: 650px;
+  position: relative;
+}
+
+.link{
+  padding-left: 30px;
+  color: #fff;
+  text-decoration:none;
+
+}
+
+.titulo{
+  padding-left: 80px;
+  text-align: left;
+  color: #fff;
+  padding-top: 50px;
+  width: 300px;
+}
+
+
+.texto
+{
+  padding-left: 80px;
+  text-align: left;
+  color: #fff;
+  padding-top: 50px;
+  width: 300px;
+
+}
+
+.card{
+  float: right ;
+  bottom: 350px;
+  right: 350px;
+  position:relative;
+  padding: 15px;
+  padding-bottom: 35px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(93px);
+}
+
+.card_text{
+color: #FFFFFF;
+font-size: 18px;
+text-align: center;
+
+}
+
+
+
+.button{
+  position:relative;
+  left: 80px;
+  top: 30px;
+  background: #4AB45E;
+  border-radius: 4px;
+  width: 172px;
+  height: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
