@@ -63,6 +63,20 @@ text-align: center;
 }
 
 
+.fundo{
+  position: relative;
+  bottom: 167px;
+  color: #fff;
+}
+
+.secao2{
+  background-color: #fff;
+}
+
+.secao3{
+  background-color: #fff;
+}
+
 
 .button{
   position:relative;
@@ -99,4 +113,102 @@ text-align: center;
 
 .button_carousel:active {
   transform: scale(0.9);
+}
+
+
+.App-header{
+  padding-bottom: 240px;
+}
+
+.text_secao2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+width: 613px;
+height: 450px;
+position: relative;
+left: 20px;
+bottom: 300px;
+
+text-align: justify;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo_secao2{
+  position: relative;
+left: 10px;
+bottom: 300px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 56px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+width: 278px;
+}
+
+.secao2_about_us{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+position: relative;
+bottom: 300px;
+text-align: center;
+width: 83px;
+height: 27px;
+left: 20px;
+color: #4AB45E;
+}
+
+.about_us{
+  bottom: 500px;
+  left: 580px;
+  position:relative;
+}
+
+
+
+.title1_secao3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  width: 98px;
+  height: 27px;
+  text-align: center;
+  position: relative;
+  left: 600px;
+  color: #4AB45E;
+  bottom: 370px;
+}
+
+.title2_secao3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  width: 772px;
+  height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  left: 300px;
+  bottom: 370px;
+}
+
+.video{
+  position:relative;
+  bottom: 320px;
+  left: 400px;
 }
