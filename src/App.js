@@ -2,6 +2,10 @@ import './App.css';
 import logo from './imagens/logo.png'
 import fundo from './imagens/fundo.png'
 import about_us from './imagens/about_us.png'
+import icone1 from './imagens/icone1.png'
+import icone2 from './imagens/icone2.png'
+import icone3 from './imagens/icone3.png'
+import icone4 from './imagens/icone4.png'
 import Carousel from './componentes/Carousel';
 import Video from './componentes/Video';
 
@@ -67,9 +71,37 @@ function App() {
       </div>
 
       <div className='secao4'>
+        <p className='title1_secao4'> Category</p>
+        <h1 className='title2_secao4'> We Offer Best Services </h1>
+        <div className='division'>
+        <div >
+          <img className='icone1' src={icone1} alt='icone1'></img>
+          <h1 className='title3_secao4'>Mountaion Guide</h1>
+          <p className='title4_secao4'>An experienced Mountain leader guide.</p>
+        </div>
+        <div >
+          <img className='icone1' src={icone2} alt='icone2'></img>
+          <h1 className='title3_secao4'>Best Offer</h1>
+          <p className='title4_secao4'>Snacks and water at both RV points, Nant Peris and Ogwen Valley.</p>
+        </div>
+        <div >
+          <img className='icone1' src={icone3} alt='icone3'></img>
+          <h1 className='title3_secao4'>24h Guidance</h1>
+          <p className='title4_secao4'>Our safety-first approach gives you peace of mind — and the freedom to make exploration your priority.</p>
+        </div>
+        <div >
+          <img className='icone1' src={icone4} alt='icone4'></img>
+          <h1 className='title3_secao4'>Safety First</h1>
+          <p className='title4_secao4'>Our safety-first approach gives you peace of mind — and the freedom to make exploration your priority.</p>
+        </div>
+        </div>
         
       </div>
 
+      <div className='secao5'>
+      <p className='title1_secao5'> Our Pricing </p>
+        <h1 className='title2_secao5'> Our Next Tours </h1>
+      </div>
 
     </div>
   );
